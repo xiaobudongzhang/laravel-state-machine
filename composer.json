@@ -1,5 +1,5 @@
 {
-    "name": "sebdesign/laravel-state-machine",
+    "name": "xiaobudongzhang/laravel-state-machine",
     "description": "Winzou State Machine service provider for Laravel",
     "keywords": [
         "laravel",
@@ -7,16 +7,8 @@
         "event",
         "statemachine"
     ],
-    "homepage": "https://github.com/sebdesign/laravel-state-machine",
+    "homepage": "https://github.com/xiaobudongzhang/laravel-state-machine",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Sébastien Nikolaou",
-            "email": "info@sebdesign.eu",
-            "homepage": "http://sebdesign.eu",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^7.2.5",
         "illuminate/support": "^7.0",
@@ -28,12 +20,6 @@
         "phpunit/phpunit": "^8.4 | ^9.0",
         "symfony/process": "^4.3 | ^5.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/sebdesign/state-machine"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Sebdesign\\SM\\": "src"
